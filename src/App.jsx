@@ -5,10 +5,12 @@ import Home from "./pages/Home";
 import RecipeDetails from "./pages/RecipeDetails";
 import Favorites from "./pages/Favorites";
 import Navbar from "./components/Navbar";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   return (
     <Provider store={store}>
+      <Analytics />
       <Router>
         <Navbar />
         <Routes>

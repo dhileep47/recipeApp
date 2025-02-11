@@ -1,8 +1,23 @@
-# React + Vite
+## 🍽️ RecipeNest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+RecipeNest is a React-based recipe application that allows users to search for recipes, view detailed ingredients, and save favorites.
 
-Currently, two official plugins are available:
+### 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 **Search Recipes** – Find recipes based on ingredients or dish names.
+- 📚 **Recipe Details** – View full details of any recipe, including ingredients and steps.
+- ❤️ **Favorites** – Save your favorite recipes for easy access.
+- 📊 **Vercel Analytics** – Track user interactions and performance.
+
+### 🛠️ Tech Stack
+
+- **Frontend:** React, Redux Toolkit, React Router
+- **State Management:** Redux
+- **Data Fetching:** Axios
+- **Icons:** Lucide React
+- **Analytics:** Vercel Analytics
+- **Backend:** (API integration – specify if applicable)
+
+### 🌍 Deployment
+
+This project is deployed on **Vercel**.
