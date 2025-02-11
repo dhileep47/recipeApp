@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { addFavorite, removeFavorite } from "../store/favoriteSlice";
 
-export const RecipeCard = ({ data }) => {
+const RecipeCard = ({ data }) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
@@ -86,3 +86,5 @@ export const RecipeCard = ({ data }) => {
     </div>
   );
 };
+
+export default RecipeCard;

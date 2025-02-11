@@ -1,10 +1,10 @@
 import { useMemo, useState } from "react";
 import { useSelector } from "react-redux";
 import SearchBar from "../components/SearchBar";
-import { RecipeCard } from "../components/recipeCard";
 import Filters from "../components/Filters";
 import CardSkeleton from "../components/skeleton/CardSkeleton";
 import FilterSkeleton from "../components/skeleton/FilterSkeleton";
+import RecipeCard from "../components/recipeCard";
 
 const Home = () => {
   const recipes = useSelector((state) => state.recipes);
