@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import RecipeCard from "../components/recipeCard";
+import RecipeCard from "../components/RecipeCard";
 
 const Favorites = () => {
   const favorites = useSelector((state) => state.favorites.favorites);

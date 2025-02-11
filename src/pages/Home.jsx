@@ -4,7 +4,7 @@ import SearchBar from "../components/SearchBar";
 import Filters from "../components/Filters";
 import CardSkeleton from "../components/skeleton/CardSkeleton";
 import FilterSkeleton from "../components/skeleton/FilterSkeleton";
-import RecipeCard from "../components/recipeCard";
+import RecipeCard from "../components/RecipeCard";
 
 const Home = () => {
   const recipes = useSelector((state) => state.recipes);
